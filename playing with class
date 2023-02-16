@@ -1,0 +1,18 @@
+class Michelle:
+  def __init__(self, name, age, gradyear, mother, father):
+    self.name=name
+    self.age=age
+    self.gradyear=gradyear
+    self.mother=mother
+    self.father=father
+
+  
+  def Mylife(self):
+    print('my name is ', self.name)
+    print('i am ', self.age)
+    print('i will be graduating in the year ', self.gradyear)
+    print('my mother is ', self.mother)
+    print('my father is ', self.father)
+
+p1 = Michelle('Michelle Nyafordy Ogunti',22,2024,'Barbara Ogunti','Mack Ogunti')
+p1.Mylife()
